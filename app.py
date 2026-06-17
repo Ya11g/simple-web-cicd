@@ -61,7 +61,7 @@ def index():
     )
 
 
-@app.route("/health")
+@app.route("/health") 
 def health():
     return {"status": "healthy"}, 200
 
